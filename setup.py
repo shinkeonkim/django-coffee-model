@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django-coffee-model",
-    version="0,1",
+    version="0.2",
     description="django coffee models",
     author="shinkeonkim",
     author_email="singun11@kookmin.ac.kr",
