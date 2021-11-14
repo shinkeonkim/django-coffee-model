@@ -1,7 +1,6 @@
 from datetime import datetime
-from typing import _T
 from django.db import models
-from django.db.models.query import _QuerySet
+from django.db.models.query import _QuerySet, _T
 from django.utils.translation import gettext as _
 
 
