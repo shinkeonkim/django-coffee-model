@@ -43,7 +43,7 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    version="2.1.3",
+    version=version,
     name=package_name,
     description="django coffee models",
     long_description=read('README.md'),
