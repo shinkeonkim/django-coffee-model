@@ -1,12 +1,6 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="django-coffee-model",
-    version="0.2",
-    description="django coffee models",
-    author="shinkeonkim",
-    author_email="singun11@kookmin.ac.kr",
-    url="https://github.com/shinkeonkim/django-coffee-model",
     download_url="",
     install_requires=[],
     packages=find_packages(exclude=[]),
