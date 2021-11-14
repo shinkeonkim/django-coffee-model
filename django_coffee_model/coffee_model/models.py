@@ -1,20 +1,19 @@
 from datetime import datetime
 from django.db import models
-from django.db.models.query import _QuerySet, _T
 from django.utils.translation import gettext as _
 
 
 class CoffeeModelManager(models.Manager):
     use_for_ralated_fields = True
 
-    def get_queryset(self) -> _QuerySet[_T]:
+    def get_queryset(self):
         return super().get_queryset()
 
 
 class DarkCoffeeModelManager(CoffeeModelManager):
     use_for_ralated_fields = True
 
-    def get_queryset(self) -> _QuerySet[_T]:
+    def get_queryset(self):
         return super().get_queryset().filter(deleted_at__is_null=True)
 
 
