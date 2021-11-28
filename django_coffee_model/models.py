@@ -34,7 +34,7 @@ class CoffeeModel(models.Model):
     )
 
 
-class DarkCoffeeModel(CoffeeModelManager):
+class DarkCoffeeModel(CoffeeModel):
     object = DarkCoffeeModelManager()
 
     class Meta:
