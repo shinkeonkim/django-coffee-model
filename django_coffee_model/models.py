@@ -35,7 +35,7 @@ class CoffeeModel(models.Model):
 
 
 class DarkCoffeeModel(CoffeeModel):
-    object = DarkCoffeeModelManager()
+    objects = DarkCoffeeModelManager()
 
     class Meta:
         abstract = True
