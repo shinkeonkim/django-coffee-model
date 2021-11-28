@@ -38,7 +38,7 @@ class DarkCoffeeModel(CoffeeModel):
     object = DarkCoffeeModelManager()
 
     class Meta:
-        abstrct = True
+        abstract = True
 
     deleted_at = models.DateTimeField(
         verbose_name=_("deleted at"),
